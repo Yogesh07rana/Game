@@ -37,7 +37,7 @@ boxes.forEach((box, index) => {
     playerMove(index, "O"); 
 
     if (!gameOver) {
-      setTimeout(() => computerMove(), 400);
+      setTimeout(() => computerMove(), 200);
     }
   });
 });
@@ -195,3 +195,4 @@ const checkwin = () => {
 
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
+
