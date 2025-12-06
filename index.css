@@ -87,8 +87,9 @@ body
 /* For screens smaller than 768px (mobile) */
 @media only screen and (max-width: 768px) {
   #name {
-    margin-top: 100px; /* push heading lower on mobile */
+    margin-top: 50px; /* push heading lower on mobile */
   }
 }
+
 
 
